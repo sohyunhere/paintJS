@@ -71,6 +71,7 @@ function handleCanvasClick(){
 function handleCM(event){
     event.preventDefault();
 }
+
 function handleSaveClick(){
     const image = canvas.toDataURL();
     const link = document.createElement("a");
